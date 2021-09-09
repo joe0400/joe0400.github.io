@@ -42,9 +42,10 @@ var peer = new Peer()
             });
              
         });
+	id = "joe0400.github.io?host=true&id=" + id;
         //$("#idnumber").html("<a href=\"file:///home/joe0400/sendit/tester.html?host=true&id="+id+"\">link</a>");
         new QRCode("qrcode",{
-            text:"joe0400.github.io?host=true&id="+id
+            text:id
         });
         console.log("file:///home/joe0400/sendit/receive.html?id="+id);
         
