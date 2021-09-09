@@ -47,6 +47,7 @@ var peer = new Peer()
             text: "?host=true&id="+id,
             width:128,
             height:128,
+            correctLevel : QRCode.CorrectLevel.L
         });
         console.log("file:///home/joe0400/sendit/receive.html?id="+id);
         
