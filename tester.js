@@ -44,9 +44,7 @@ var peer = new Peer()
         });
         //$("#idnumber").html("<a href=\"file:///home/joe0400/sendit/tester.html?host=true&id="+id+"\">link</a>");
         new QRCode("qrcode",{
-            text: "https://joe0400.github.io?host=true&id="+id,
-            width:256,
-            height:256
+            text: "https://joe0400.github.io?host=true&id="+id
         });
         console.log("file:///home/joe0400/sendit/receive.html?id="+id);
         
