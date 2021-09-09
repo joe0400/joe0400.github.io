@@ -47,7 +47,7 @@ var peer = new Peer()
             text: "https://joe0400.github.io?host=true&id="+id,
             width:256,
             height:256,
-            correctLevel : QRCode.CorrectLevel.L
+            correctLevel : QRCode.CorrectLevel.M
         });
         console.log("file:///home/joe0400/sendit/receive.html?id="+id);
         
